@@ -1,5 +1,5 @@
 # CRM-demo
-Simple CRUD (Create Read Update Delete) application based on Udemy Spring course
+Simple CRUD (Create Read Update Delete) application based on Udemy Spring-Hibernate course
 
 Download this project from: https://github.com/adeq123/CRM-demo/
 
