@@ -20,8 +20,8 @@ The browser sends the request to the Controller (Spring MVC). The controller fin
 In this specific application, the method will communicate with Service Fascade Object which will delegate the request to DAO object. DAO is 
 responsible for communication with database. If there is any result to return. DAO will pass to Controller through service layer. The Controller
 will return appropriate view and model to the browser.
-![](CRM-demo/web-customer-tracker/tree/master/img/appArchtecture1.png)
-
+![](CRM-demo/web-customer-tracker/img/appArchtecture1.png)
+![](BusTicketReservationSystem/readme%20images/ticketmana.png)
 ## Concepts used
 
 Java EE, Spring, Spring MVC, Hibernate, MySQL
