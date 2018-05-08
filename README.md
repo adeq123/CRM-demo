@@ -20,7 +20,7 @@ The browser sends the request to the Controller (Spring MVC). The controller fin
 In this specific application, the method will communicate with Service Fascade Object which will delegate the request to DAO object. DAO is 
 responsible for communication with database. If there is any result to return. DAO will pass to Controller through service layer. The Controller
 will return appropriate view and model to the browser.
-![](CRM-demo/img/appArchitecture1.png)
+![](CRM-demo/web-customer-tracker//img/appArchitecture1.png)
 
 Concepts used:
 Java EE, Spring, Spring MVC, Hibernate, MySQL
@@ -31,13 +31,13 @@ Adrian Roguski with gudience included on Udemy Spring-Hibernate tutorial
 
 Screenshots
 
-![](CRM-demo/img/customerList.png)
+![](CRM-demo/web-customer-tracker//img/customerList.png)
 Welcome screen with list of customers. Search for customers tool is on the top.
 
-![](CRM-demo/img/addCustomer.png)
+![](CRM-demo/web-customer-tracker//img/addCustomer.png)
 Add customer panel. Used also for updates (it is pre-filed then) 
 
-![](CRM-demo/img/deleteCustomer.png)
+![](CRM-demo/web-customer-tracker//img/deleteCustomer.png)
 Message shown when you try to delete the record.
 Bugs
 No input validation.
