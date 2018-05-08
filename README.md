@@ -27,7 +27,7 @@ will return appropriate view and model to the browser.
 Java EE, Spring, Spring MVC, Hibernate, MySQL
 Service Fascade design pattern, DAO (Data Access Object), Data binding
 
-Author
+## Author
 
 Adrian Roguski with gudience included on Udemy Spring-Hibernate tutorial
 
