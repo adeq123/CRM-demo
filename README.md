@@ -14,7 +14,7 @@ The application is a simple CRUD application allowing to Create, Read, Update, D
 you manage a list of clients (CRM - Customer Relationship Management). The database used is MySQL and Hibernate ORM is used to communicate with it.
 The Architecture is described below.
 
-Architecture:
+Architecture
 
 The browser sends the request to the Controller (Spring MVC). The controller find the method based on mapping specified (eg. @ReguestMapping).
 In this specific application, the method will communicate with Service Fascade Object which will delegate the request to DAO object. DAO is 
@@ -22,11 +22,13 @@ responsible for communication with database. If there is any result to return. D
 will return appropriate view and model to the browser.
 ![](CRM-demo/web-customer-tracker/tree/master/img/appArchtecture1.png)
 
-Concepts used:
+Concepts used
+
 Java EE, Spring, Spring MVC, Hibernate, MySQL
 Service Fascade design pattern, DAO (Data Access Object), Data binding
 
 Author
+
 Adrian Roguski with gudience included on Udemy Spring-Hibernate tutorial
 
 Screenshots
@@ -34,7 +36,7 @@ Screenshots
 ![](CRM-demo/web-customer-tracker/img/customerList.png)
 Welcome screen with list of customers. Search for customers tool is on the top.
 
-![](CRM-demo/blob/master/web-customer-tracker/img/addCustomer.png)
+![](CRM-demo/web-customer-tracker/img/addCustomer.png)
 Add customer panel. Used also for updates (it is pre-filed then) 
 
 ![](CRM-demo/web-customer-tracker/img/deleteCustomer.png)
