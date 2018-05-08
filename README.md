@@ -34,7 +34,7 @@ Screenshots
 ![](CRM-demo/web-customer-tracker/img/customerList.png)
 Welcome screen with list of customers. Search for customers tool is on the top.
 
-![](CRM-demo/web-customer-tracker/img/addCustomer.png)
+![](CRM-demo/blob/master/web-customer-tracker/img/addCustomer.png)
 Add customer panel. Used also for updates (it is pre-filed then) 
 
 ![](CRM-demo/web-customer-tracker/img/deleteCustomer.png)
